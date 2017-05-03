@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: font-family: 'Roboto Condensed', sans-serif;
+}
+ .container{
+	width: 1000px;
+	margin: 0 auto;
+    overflow: hidden;
+}
+header{
+	background: #fff;
+    overflow: hidden;
+    padding: 5px;
+}
+.logo{
+	float: left;
+	width:20%;
+}
+.logo img{
+	width:80%;
+}
+.logos{
+	float: left;
+	width:55%;
+	padding-top: 3px;
+}
+.logos ul{
+	margin: 0;
+    padding: 0;
+    padding-left: 20px;
+}
+.logos ul li{
+	list-style: none;
+    display: inline-block;
+}
+.logos ul li a{
+	text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    padding: 10px 6px 3px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+}
+.logos ul li a:hover{
+	color: #66C430;
+}
+.social{
+	float: right;
+    text-align: right;
+    padding-top: 10px;
+}
+.social ul{
+	margin: 0;
+	padding:0; 
+}
+.social ul li{
+	list-style: none;
+    display: inline-block;
+}
+.social ul li a{
+	text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    padding-right: 2px;
+}
+.social span a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+
+}
+.social span{
+	padding-left: 15px;
+	font-size:17px;
+}
+.social span a:hover{
+	color: #319647;
+}
+.sidebar{
+	position: fixed;
+    top: 40%;
+    right: 0;
+}
+.sidebar i{
+	color:#fff ;
+}
+.sidebar a{
+	text-transform: capitalize;
+    text-decoration: none;
+    background: #6d6c6b;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px 0 0 4px;
+
+}
+.sidebar span{
+	padding-left: 5px;
+}
+.sidebar a:hover{
+	background: #000;
+	color: #fff;
+	border-radius: 0 0 0 7px;
+}
+.sidebar i:hover{
+	color: #66C430;
+}
+
+.fa-facebook-square{
+	color: #3B5998;
+}
+
+.fa-twitter-square{
+	color: #00A0D1;
+}
+
+.fa-google-plus-square{
+	color: #C63D2D;
+}
+
+.fa-linkedin-square{
+	color:#4875B4; 
+}
+
+.banner{
+	background: url(../image/bike.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 85vh;
+	overflow: hidden;
+/*	background-attachment: fixed;*/
+}
+.banner img{
+	max-width: 100%;
+	display: block;
+}
+.loan{
+	float: left;
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px;
+    margin-bottom: 25px;
+    background: ;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+.loan ul{
+	margin: 0;
+	padding: 0;
+}
+.loan ul li{
+	list-style: none;
+	display: inline-block;
+}
+.loan h1{
+	color: #000;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    text-shadow: 2px 2px #506e73;
+ }
+.loan p{
+	color: #fff;
+    font-size: 25px;
+    margin: 0;
+    font-family: serif;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+.button{
+	height: 35px;
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #66c430;
+    border: 1px solid #15191b;
+    border-radius: 6px;
+    margin-top: 25px;
+    cursor: pointer;
+    margin-left: 5px;
+    box-shadow: 7px 4px 1px #9e9595;
+
+}
+.button:hover{
+	background: #224D69;
+	box-shadow: 4px 7px 1px #9e9595;
+}
+.info{
+	overflow: hidden;
+	padding-top: 25px;
+}
+.infoimg{
+	width: 25%;
+    height: 350px;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px 20px 5px 10px;
+    text-align: center;
+    display: inline-block;
+ }
+ .infoimg h1{
+ 	text-align: center;
+ 	font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+ }
+ .infoimg p{
+ 	text-align: center;
+ 	font-family: 'Open Sans', sans-serif;
+  	padding:0;
+
+ }
+.infoimg button{
+	color: #ffffff;
+    background-color: #129746;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #E0F0E4;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.infoimg button:hover{
+	background:#095169;
+	box-shadow: 4px 7px 1px #9e9595;
+}
+.invest-section{
+	overflow: hidden;
+	display: block;
+}
+.invest{
+	float: left;
+	background: #B7CCD3;
+	padding: 25px;
+    margin-left: 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+.invest h1{
+	text-align: center;
+}
+.invest i{
+	padding: 2px;
+}
+.invest ul{
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+}
+.invest ul li{
+	list-style: none;
+	display: block;
+	padding: 5px;
+	
+}
+.getloan{
+	float: left;
+	background: #B4E1E1;
+	padding: 25px;
+    margin-left: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+.getloan h1{
+	text-align: center;
+}
+.getloan i{
+	padding: 2px;
+}
+.getloan ul{
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+}
+.getloan ul li{
+	list-style: none;
+	display: block;
+	padding: 5px;
+}
+.button2{
+	height: 30px;
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #319647;
+    border: 1px solid #15191b;
+    border-radius: 3px;
+    margin-top: 25px;
+    cursor: pointer;
+    margin-left: 5px;
+    box-shadow: 7px 4px 1px #9e9595;
+}
+.button2:hover{
+	background: #224D69;
+	box-shadow: 4px 7px 1px #9e9595;
+}
+.blog span{
+	text-align: center;
+    color: #224D69;
+    font-size: 25px;
+    font-weight: 700;
+}
+.blog span h1{
+	margin: 0;
+
+}
+.things{
+	float: left;
+    width: 45%;
+    margin: 20px;
+}
+.things h1{
+    color: #224D69;
+}
+.things p{
+	font-size: 13px;
+}
+.platform{
+	float: left;
+    width: 45%;
+    margin:20px;
+}
+.platform h1{
+    color: #224D69;
+}
+.platform p{
+	font-size: 13px;
+}
+.read{
+	text-decoration: none;
+    color: #0d5f94;
+    text-transform: capitalize;
+    float: right;
+    font-size: 17px;
+}
+.footer-section{
+	text-align: center;
+    background: #EEEEEE;
+    font-size: 20px;
+}
+.fs{
+	padding-bottom: 45px;
+    padding-top: 15px;
+}
+.footer-section p{
+	color: #0d5f94;
+	margin: 0;
+    padding: 10px;
+}
+.footer-section b{
+	    font-size: 28px;
+	    color: #224D69;
+}
+.trustpilot{
+	text-align: center;
+}
+.trustpilot img{
+	width: 50%;
+}
+.trustpilot p{
+	margin: 0;
+    font-size: 11px;
+    padding-bottom: 40px;
+}
+.ml{
+	background: #EEEEEE;
+}
+.ml img{
+	width: 100%;
+    padding-bottom: 35px;
+
+}
+.ml h1{
+	text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+.collaboration{
+	text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    color: #fff;
+    text-transform: lowercase;
+    background: #777777;
+}
+.collaboration img{
+	width: 100%;
+    padding-bottom: 40px;
+}
+.collaboration h1{
+	text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+footer{
+	text-align: center;
+	background: #000;
+	color: rgb(165, 162, 162);
+}
+.left-footer{
+	float: left;
+	width: 50%;
+}
+.right-footer{
+	float: left;
+	width: 50%;
+}
